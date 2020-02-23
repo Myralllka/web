@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="771cf423-8c2b-4333-a415-f52e7044eb71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XwAjBUZhZml5YQtmTV35XNuY42" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first_page" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="771cf423-8c2b-4333-a415-f52e7044eb71" name="Default Changelist" comment="" />
+      <created>1581946916058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581946916058</updated>
+      <workItem from="1581946920041" duration="10000" />
+      <workItem from="1582106053243" duration="680000" />
+      <workItem from="1582106748838" duration="606000" />
+      <workItem from="1582440386913" duration="2244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582106364056">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="414" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582106364056" />
+    <state x="690" y="254" width="530" height="599" key="FileChooserDialogImpl" timestamp="1582442629555">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="690" y="254" width="530" height="599" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582442629555" />
+    <state x="325" y="101" width="1269" height="906" key="SettingsEditor" timestamp="1582106736656">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="325" y="101" width="1269" height="906" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582106736656" />
+    <state x="696" y="99" width="517" height="910" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582442311772">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="696" y="99" width="517" height="910" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1582442311772" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582106557113">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582106557113" />
+  </component>
+</project>
