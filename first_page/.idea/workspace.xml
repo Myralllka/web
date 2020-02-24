@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="771cf423-8c2b-4333-a415-f52e7044eb71" name="Default Changelist" comment="" />
+    <list default="true" id="771cf423-8c2b-4333-a415-f52e7044eb71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Different_small_camps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Easter_na_zahid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/First_trip_to_europe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Hoverla.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Legion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Mezha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Plast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Second_trip_to_Europe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hogwarts_camp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/camps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hiking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hitchhiking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lowcost.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +32,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XwAjBUZhZml5YQtmTV35XNuY42" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -49,6 +76,7 @@
       <workItem from="1582106748838" duration="606000" />
       <workItem from="1582440386913" duration="2105000" />
       <workItem from="1582442632623" duration="171000" />
+      <workItem from="1582540009814" duration="4380000" />
     </task>
     <servers />
   </component>
