@@ -32,21 +32,21 @@ function clear_playground() {
                 }
             }
         }
-        for (let obj of objects) {
-            for (let pos of obj.position){
-                for (let arr of [[rowIndex, 0], [rowIndex, 1], [rowIndex, 2], [rowIndex, 3], [rowIndex, 4]]){
-                    if (arraysEqual(arr, pos)){
-                        obj.position = arrayRemove(obj.position, pos);
-                    }
-                }
-            }
-        }
-        for (let i = 0; i < playground.length - 2; i++) {
-            if (i === rowIndex) flag = true;
-            if (! flag) continue;
-            for (let j = 0; j < playground[i].length; j++){
-                playground[i][j] = playground[i+1][j];
-            }
-        }
+        // for (let obj of objects) {
+        //     for (let pos of obj.position){
+        //         for (let arr of [[rowIndex, 0], [rowIndex, 1], [rowIndex, 2], [rowIndex, 3], [rowIndex, 4]]){
+        //             if (arraysEqual(arr, pos)){
+        //                 obj.position = arrayRemove(obj.position, pos);
+        //             }
+        //         }
+        //     }
+        // }
+        // for (let i = 0; i < playground.length - 2; i++) {
+        //     if (i === rowIndex) flag = true;
+        //     if (! flag) continue;
+        //     for (let j = 0; j < playground[i].length; j++){
+        //         playground[i][j] = playground[i+1][j];
+        //     }
+        // }
     }
 }
