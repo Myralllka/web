@@ -1,4 +1,4 @@
-eventTarget.addEventListener("keydown", event => {
+document.addEventListener("keydown", event => {
     switch (event.keyCode) {
         case DOWN:
             moveDown();
@@ -8,6 +8,10 @@ eventTarget.addEventListener("keydown", event => {
             break;
         case RIGHT:
             moveRight();
+            break;
+        case PAUSE:
+            STATE = STATE ^ 1;
+            pauseGame();
             break;
         default:
             break;

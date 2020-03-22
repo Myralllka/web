@@ -1,16 +1,16 @@
 // render DOM nodes according to the playground definition
 function renderPlayground() {
-  renderPositions();
-  let playgroundNode = document.getElementById('playground')
-  playgroundNode.innerHTML = '';
+    renderPositions();
+    let playgroundNode = document.getElementById('playground')
+    playgroundNode.innerHTML = '';
 
-  for (let rowIndex = playground.length - 1; rowIndex >= 0; rowIndex-- ) {
-    let rowNode = createRow(rowIndex);
-    for (let cellIndex = 0; cellIndex < playground[rowIndex].length; cellIndex++) {
-      rowNode.appendChild(createCell(cellIndex, playground[rowIndex][cellIndex]))
+    for (let rowIndex = playground.length - 1; rowIndex >= 0; rowIndex--) {
+        let rowNode = createRow(rowIndex);
+        for (let cellIndex = 0; cellIndex < playground[rowIndex].length; cellIndex++) {
+            rowNode.appendChild(createCell(cellIndex, playground[rowIndex][cellIndex]))
+        }
+        playgroundNode.appendChild(rowNode);
     }
-    playgroundNode.appendChild(rowNode);
-  }
 }
 
 // Creates <div class="row" id="row-9">
