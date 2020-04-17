@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Forms</title>
+</head>
+<body>
+<header>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="../index.html">Main page</a></li>
+        <li><a href="./html_general.html">HTML general</a></li>
+        <li><a href="./basic.html">HTML basic elements</a></li>
+        <li><a href="./tables.html">Tables</a></li>
+        <li><a href="./lists.html">Lists</a></li>
+    </ul>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="./forms.html">Forms</a></li>
+        <li><a href="./css_general.html">CSS general</a></li>
+        <li><a href="./css_basic.html">CSS basic elements</a></li>
+        <li><a href="./floating.html">Floating</a></li>
+        <li><a href="./flex.html">Flex box</a></li>
+    </ul>
+</header>
+<main>
+    <h1 class="header_element">Forms</h1>
+    <h2 class="header_element">HTML Form Example</h2>
+    <div class="main_element">
+        <form action="#" target="_blank">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <h2 class="header_element">The &lt;input&gt; Element</h2>
+    <div class="main_element">
+        <p>The <code>&lt;input&gt;</code> element is the most important form element. </p>
+        <p>The <code>&lt;input&gt;</code> element is displayed in several ways, depending on the <strong>type</strong>
+            attribute.</p>
+        <p>Here are some examples:</p>
+        <table>
+            <tbody>
+            <tr>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;input type="text"&gt;</td>
+                <td>Defines a single-line text input field</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="radio"&gt;</td>
+                <td>Defines a radio button (for selecting one of many choices)</td>
+            </tr>
+            <tr>
+                <td>&lt;input type="submit"&gt;</td>
+                <td>Defines a submit button (for submitting the form)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2 class="header_element">The &lt;label&gt; Element</h2>
+    <div class="main_element">
+        <p>Notice the use of the <code>&lt;label&gt;</code> element in the
+            example above. </p>
+        <p>The <code>&lt;label&gt;</code> tag defines a label for many
+            form elements.</p>
+        <p>The <code>&lt;label&gt;</code> element is useful for
+            screen-reader users, because the screen-reader will read out load the label when
+            the user is focused on the input element.</p>
+        <p>The <code>&lt;label&gt;</code> element also help users who have
+            difficulty clicking on very small regions (such as radio buttons or checkboxes)
+            - because when the user clicks the text within the &lt;label&gt; element, it toggles
+            the radio button/checkbox.</p>
+        <p>The <code>for</code> attribute of the &lt;label&gt; tag should
+            be equal to the <code>id</code> attribute of the &lt;input&gt;
+            element to bind them together. </p>
+    </div>
+    <h2 class="header_element">The Submit Button</h2>
+    <div class="main_element">
+        <p>
+            <code>&lt;input type="submit"&gt;</code> defines a button for submitting the form data to a form-handler.
+            The form-handler is typically a page on the server with a script for processing input data.
+            The form-handler is specified in the form's action attribute.
+        </p>
+    </div>
+    <h2 class="header_element">The Action Attribute</h2>
+    <div class="main_element">
+        <p> The <code>action</code> attribute defines the action to be performed when the form is submitted.
+            Usually, the form data is sent to a page on the server when the user clicks on the submit button.
+            In the example above, the form data is sent to a page on the server called "/action_page.php". This page
+            contains a server-side script that handles the form data:<br>
+            <code>&lt;form action="/action_page.php"&gt;</code><br>
+            If the <code>action</code> attribute is omitted, the action is set to the current page.</p>
+    </div>
+    <h2 class="header_element">The Target Attribute</h2>
+    <div class="main_element">
+        <p>The <code>target</code> attribute specifies if the submitted result will open in a new browser tab, a frame,
+            or in the current window.<br>
+            The default value is "<code>_self</code>" which means the form will be submitted in the current window.<br>
+            To make the form result open in a new browser tab, use the value "<code>_blank</code>".<br>
+            Other legal values are "<code>_parent</code>", "<code>_top</code>", or a name representing the name of an
+            iframe.</p>
+    </div>
+    <h2 class="header_element">The Method Attribute</h2>
+    <div class="main_element">
+        The <code>method</code> attribute specifies the HTTP method (<strong>GET</strong> or <strong>POST</strong>) to
+        be used when submitting the form data.
+        <h3 class="header_element">When to Use GET?</h3>
+        <p>The default HTTP method when submitting form data is GET. However, when GET is used, the form data will be <strong>visible in the page's address field.</strong></p>
+        <h4 class="main_element">Notes on GET</h4>
+        <ul>
+            <li>Appends form-data into the URL in name/value pairs</li>
+            <li>The length of a URL is limited (2048 characters)</li>
+            <li>Never use GET to send sensitive data! (will be visible in the URL)</li>
+            <li>Useful for form submissions where a user wants to bookmark the result</li>
+            <li>GET is better for non-secure data, like query strings in Google</li>
+        </ul>
+        <h3 class="header_element">When to Use POST?</h3>
+        <p>Always use POST if the form data contains sensitive or personal information. The POST method does not display the form data in the page address field.</p>
+        <h4 class="main_element">Notes on POST</h4>
+        <ul>
+            <li>POST has no size limitations, and can be used to send large amounts of data.</li>
+            <li>Form submissions with POST cannot be bookmarked</li>
+        </ul>
+    </div>
+    <h2 class="header_element">The Name Attribute</h2>
+    <div class="main_element">
+        <p>Each input field must have a <code>name</code> attribute to be submitted. If the <code>name</code> attribute is omitted, the data of that input field will not be sent at all.</p>
+    </div>
+</main>
+<footer>
+    <p>made by Mykola Morhunenko</p>
+</footer>
+</body>
+</html>

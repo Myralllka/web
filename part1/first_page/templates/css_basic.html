@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>CSS basic elements</title>
+</head>
+<body>
+<header>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="../index.html">Main page</a></li>
+        <li><a href="./html_general.html">HTML general</a></li>
+        <li><a href="./basic.html">HTML basic elements</a></li>
+        <li><a href="./tables.html">Tables</a></li>
+        <li><a href="./lists.html">Lists</a></li>
+    </ul>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="./forms.html">Forms</a></li>
+        <li><a href="./css_general.html">CSS general</a></li>
+        <li><a href="./css_basic.html">CSS basic elements</a></li>
+        <li><a href="./floating.html">Floating</a></li>
+        <li><a href="./flex.html">Flex box</a></li>
+    </ul>
+</header>
+<main>
+    <h1 class="header_element">CSS basic elements</h1>
+    <h2 class="header_element">CSS Selectors</h2>
+    <div class="main_element">
+        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style. We can divide CSS selectors
+            into five categories:</p>
+        <ul>
+            <li>Simple selectors (select elements based on name, id, class)</li>
+            <li>Combinator selector (select elements based on a specific relationship between them)</li>
+            <li>Pseudo-class selectors (select elements based on a certain state)</li>
+            <li>Pseudo-elements selectors (select and style a part of an element)</li>
+            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+    </div>
+    <h2 class="header_element">The CSS element Selector</h2>
+    <div class="main_element">
+        <p>The element selector selects HTML elements based on the element name.</p>
+        <h3 class="header_element">Example</h3>
+        p
+        {<br>
+        &nbsp;&nbsp;text-align: center<br>
+        }
+    </div>
+    <h2 class="header_element">The CSS id Selector</h2>
+    <div class="main_element">
+        <p>The id selector uses the id attribute of an HTML element to select a specific element.<br><br>
+            The id of an element is unique within a page, so the id selector is used to select one unique
+            element!<br><br>
+            To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br>
+        </p>
+        <h3 class="header_element">Example</h3>
+        #idname {<br>
+        &nbsp;&nbsp;text-align: center;<br>
+        &nbsp;&nbsp;color: red;<br>
+        }
+    </div>
+    <h2 class="header_element">The CSS class Selector</h2>
+    <div class="main_element">
+        <p>The class selector selects HTML elements with a specific class attribute. To select elements with a specific
+            class, write a period (.) character, followed by the class name.</p>
+        <h3 class="header_element">Example</h3>
+        .classname {<br>
+        &nbsp;&nbsp;text-align: center<br>
+        &nbsp;&nbsp;color: red<br>
+        }
+    </div>
+    <h2 class="header_element">The CSS Universal Selector</h2>
+    <div class="main_element">
+        <p>The universal selector (*) selects all HTML elements on the page.</p>
+        <h3 class="header_element">Example</h3>
+        * {<br>
+        &nbsp;&nbsp;text-align: center<br>
+        &nbsp;&nbsp;color: black<br>
+        }
+    </div>
+    <h2 class="header_element">All CSS Simple Selectors</h2>
+    <div class="main_element">
+        <table class="w3-table-all notranslate">
+            <tbody>
+            <tr>
+                <th style="width:20%">Selector</th>
+                <th style="width:20%">Example</th>
+                <th>Example description</th>
+            </tr>
+            <tr>
+                <td><a href="/cssref/sel_class.asp">.<i>class</i></a></td>
+                <td class="notranslate">.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>#<i>id</i></td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr>
+                <td><i>element</i></td>
+                <td>p</td>
+                <td>Selects all &lt;p&gt; elements</td>
+            </tr>
+            <tr>
+                <td><i>element,element,..</i></td>
+                <td>div, p</td>
+                <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<footer>
+    <p>made by Mykola Morhunenko</p>
+</footer>
+</body>
+</html>

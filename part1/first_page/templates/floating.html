@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Floating</title>
+</head>
+<body>
+<header>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="../index.html">Main page</a></li>
+        <li><a href="./html_general.html">HTML general</a></li>
+        <li><a href="./basic.html">HTML basic elements</a></li>
+        <li><a href="./tables.html">Tables</a></li>
+        <li><a href="./lists.html">Lists</a></li></ul>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="./forms.html">Forms</a></li>
+        <li><a href="./css_general.html">CSS general</a></li>
+        <li><a href="./css_basic.html">CSS basic elements</a></li>
+        <li><a href="./floating.html">Floating</a></li>
+        <li><a href="./flex.html">Flex box</a></li>
+    </ul>
+</header>
+<main>
+    <h1 class="header_element">Positioning on the pages</h1>
+    <h2 class="header_element">CSS Box Model</h2>
+    <div class="main_element">
+        <p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</p>
+        <img src="../img/box.png" alt="">
+        <h3 class="header_element">Explanation of the different parts:</h3>
+        <ul>
+            <li><b>Content</b> - The content of the box, where text and images appear</li>
+            <li><b>Padding</b> - Clears an area around the content. The padding is transparent</li>
+            <li><b>Border</b> - A border that goes around the padding and content</li>
+            <li><b>Margin</b> - Clears an area outside the border. The margin is
+                transparent</li>
+        </ul>
+    </div>
+    <h2 class="header_element">The display Property</h2>
+    <div class="main_element">
+        <p>The <code>display</code> property specifies if/how an element is displayed. Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is <code>block</code> or <code>inline</code>.</p>
+    </div>
+    <h2 class="header_element">The position Property</h2>
+    <div class="main_element">
+        <p>The <code>position</code> property specifies the type of positioning method used for an element.</p>
+        <p>There are five different position values: </p>
+        <ul>
+            <li><code>static</code></li>
+            <li><code>relative</code></li>
+            <li><code>fixed</code></li>
+            <li><code>absolute</code></li>
+            <li><code>sticky</code></li>
+        </ul>
+        <p>Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the <code>position</code> property is set first. They also work differently depending on the position value.</p>
+    </div>
+    <h2 class="header_element">The float Property</h2>
+    <div class="main_element">
+        <p>The CSS <code>float</code> property specifies how an element should float. The CSS <code>clear</code> property specifies what elements can float beside the cleared element and on which side.</p>
+        <p>The <code>float</code> property is used for positioning and formatting content e.g. let an image float left to the text in a container.</p>
+        <p>The <code>float</code> property can have one of the following values:</p>
+        <ul>
+            <li>left - The element floats to the left of its container</li>
+            <li>right - The element floats to the right of its container</li>
+            <li>none - The element does not float (will be displayed just where it occurs in the text). This is default</li>
+            <li>inherit - The element inherits the float value of its parent</li>
+        </ul>
+        <p>In its simplest use, the float property can be used to wrap text around images.</p>
+    </div>
+</main>
+<footer>
+    <p>made by Mykola Morhunenko</p>
+</footer>
+</body>
+</html>

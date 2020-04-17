@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>CSS general</title>
+</head>
+<body>
+<header>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="../index.html">Main page</a></li>
+        <li><a href="./html_general.html">HTML general</a></li>
+        <li><a href="./basic.html">HTML basic elements</a></li>
+        <li><a href="./tables.html">Tables</a></li>
+        <li><a href="./lists.html">Lists</a></li>
+    </ul>
+    <ul class="header_menu" type="toolbar">
+        <li><a href="./forms.html">Forms</a></li>
+        <li><a href="./css_general.html">CSS general</a></li>
+        <li><a href="./css_basic.html">CSS basic elements</a></li>
+        <li><a href="./floating.html">Floating</a></li>
+        <li><a href="./flex.html">Flex box</a></li>
+    </ul>
+</header>
+<main>
+    <h1 class="header_element">General knowledge about the CSS</h1>
+    <h2 class="header_element">What is CSS</h2>
+    <div class="important">
+        CSS is a language that describes the style of an HTML document.
+        CSS describes how HTML elements should be displayed.
+        This tutorial will teach you CSS from basic to advanced.
+    </div>
+    <h2 class="header_element">Few facts about CSS</h2>
+    <div class="main_element">
+        <ul>
+            <li><b>CSS</b> stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets</li>
+            <li>CSS describes <strong>how HTML elements are to be displayed on screen,
+                paper, or in other media</strong></li>
+            <li>CSS <strong>saves a lot of work</strong>. It can control the layout of
+                multiple web pages all at once
+            </li>
+            <li>External stylesheets are stored in <b>CSS files</b></li>
+        </ul>
+    </div>
+    <h2 class="header_element">CSS Solved a Big Problem</h2>
+    <div class="main_element">
+        <p>HTML was NEVER intended to contain tags for formatting a web page!<br>HTML was created to describe the
+            content of a web page, like:<br><code>&lt;h1&gt;</code>This is a heading <code>&lt;/h1&gt;</code><br><code>&lt;p&gt;</code>This
+            is a paragraph. <code>&lt;/p&gt;</code><br>When tags like <code>&lt;font&gt;</code>, and color attributes
+            were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large
+            websites, where fonts and color information were added to every single page, became a long and expensive
+            process.<br>To solve this problem, the World Wide Web Consortium (W3C) created CSS.<br> CSS removed the
+            style formatting from the HTML page!<br></p>
+    </div>
+    <br>
+    <div class="important">If you don't know what HTML is, we suggest that you read our HTML Tutorial.</div>
+    <h2 class="header_element">CSS Syntax</h2>
+    <div class="main_element">
+        <p>A CSS rule-set consists of a selector and a declaration block:</p>
+        <img src="../img/selector.gif" alt="Smile, please ^-^">
+        <p>The selector points to the HTML element you want to style.<br><br>
+            The declaration block contains one or more declarations separated by semicolons.<br><br>
+            Each declaration includes a CSS property name and a value, separated by a colon.<br><br>
+            A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+        </p>
+    </div>
+    <h2 class="header_element">How To Add CSS</h2>
+    <div class="main_element">
+        <h3 class="header_element">External CSS</h3>
+        <p>With an external style sheet, you can change the look of an entire website by changing just one file! Each
+            HTML page must include a reference to the external style sheet file inside the <code>&lt;link&gt;</code>
+            element, inside the head section.</p>
+        <h4 class="header_element">Example</h4>
+        <p><code>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</code></p>
+        <h3 class="header_element">Internal CSS</h3>
+        <p>An internal style sheet may be used if one single HTML page has a unique style. The internal style is defined
+            inside the <code>&lt;style&gt;</code> element, inside the head section.</p>
+        <h4 class="header_element">Example</h4>
+        <code><pre>          &lt;style&gt;
+            body {
+                background-color: linen;
+            }
+
+            h1 {
+                color: maroon;
+                margin-left: 40px;
+            }
+            &lt;/style&gt;
+        </pre></code>
+        <h3 class="header_element">Inline CSS</h3>
+        <p>An inline style may be used to apply a unique style for a single element. To use inline styles, add the style
+            attribute to the relevant element. The style attribute can contain any CSS property.</p>
+        <h4 class="header_element">Example</h4>
+        <p><code>&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;</code></p>
+        <h3 class="header_element">Cascading Order</h3>
+        <p>What style will be used when there is more than one style specified for an HTML element? All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:</p>
+        <ol>
+            <li>Inline style (inside an HTML element)</li>
+            <li>External and internal style sheets (in the head section)</li>
+            <li>Browser default</li>
+        </ol>
+        <p>So, an inline style has the highest priority, and will override external and internal styles and browser defaults.</p>
+    </div>
+</main>
+<footer>
+    <p>made by Mykola Morhunenko</p>
+</footer>
+</body>
+</html>
