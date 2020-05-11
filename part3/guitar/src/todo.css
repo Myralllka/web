@@ -1,0 +1,11 @@
+.todo-list-container {
+    padding: 20px;
+}
+.todo-list-item {
+    margin-top: 15px;
+}
+.todo-list-status {
+    border: none;
+    background-color: unset;
+    outline: none;
+}
