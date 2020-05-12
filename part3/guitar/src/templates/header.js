@@ -21,14 +21,14 @@ export default class Header extends React.Component {
                 id: 3
             }, {
                 page_name: "Metronome",
-                url: "#",
+                url: "./metronome",
                 id: 4
             }, {
-                page_name: "Easy songs",
+                page_name: "Notes",
                 url: "#",
                 id: 5
             }, {
-                page_name: "Notes",
+                page_name: "Easy songs",
                 url: "#",
                 id: 6
             }]
