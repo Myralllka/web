@@ -12,7 +12,7 @@ export default class Notes extends React.Component {
 
     render() {
         return (
-            <div> HELLO Notes</div>
+            <div className="NotSupportedYet"> HELLO Notes</div>
         )
     }
 }

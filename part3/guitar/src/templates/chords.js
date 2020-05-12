@@ -12,7 +12,7 @@ export default class Chords extends React.Component {
 
     render() {
         return (
-            <div> HELLO Chords</div>
+            <div className="NotSupportedYet"> HELLO Chords</div>
         )
     }
 }

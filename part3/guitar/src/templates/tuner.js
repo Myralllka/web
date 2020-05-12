@@ -12,7 +12,7 @@ export default class Tuner extends React.Component {
 
     render() {
         return (
-            <div> HELLO TUNER</div>
+            <div className="NotSupportedYet"> HELLO TUNER</div>
         )
     }
 }

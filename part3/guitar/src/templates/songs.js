@@ -12,7 +12,7 @@ export default class Songs extends React.Component {
 
     render() {
         return (
-            <div> HELLO Songs</div>
+            <div className="NotSupportedYet"> HELLO Songs</div>
         )
     }
 }
