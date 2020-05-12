@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/colors.css';
 import '../styles/main.css';
 import '../styles/header_and_footer.css';
+import {Link} from 'react-router-dom';
 
 export default class Header extends React.Component {
     constructor() {
@@ -13,23 +14,23 @@ export default class Header extends React.Component {
                 id: 1
             }, {
                 page_name: "Main chords",
-                url: "#",
+                url: "/chords",
                 id: 2
             }, {
                 page_name: "Tuner",
-                url: "#",
+                url: "/tuner",
                 id: 3
             }, {
                 page_name: "Metronome",
-                url: "#",
+                url: "/metronome",
                 id: 4
             }, {
                 page_name: "Easy songs",
-                url: "#",
+                url: "/songs",
                 id: 5
             }, {
                 page_name: "Notes",
-                url: "#",
+                url: "/notes",
                 id: 6
             }]
         }
@@ -40,7 +41,7 @@ export default class Header extends React.Component {
             <div className="page-header">
                 <ul className="header_menu">
                     {this.state.entries.map((entry) => (
-                        <li key={entry.id}><a href={entry.url}>{entry.page_name}</a></li>
+                        <li key={entry.id}><Link to={entry.url}>{entry.page_name}</Link></li>
                     ))}
                 </ul>
             </div>
