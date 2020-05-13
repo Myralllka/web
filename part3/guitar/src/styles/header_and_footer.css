@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-.page-header, .page-footer {
+.page-header, .page-footer, .page-subfooter {
     background-color: var(--b1);
     display: flex;
     position: fixed;
@@ -18,8 +18,15 @@ body {
 }
 
 .page-footer {
+    position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.page-subfooter {
+    position: absolute;
+    left: 0;
+    bottom: 3em;
 }
 
 .header_menu {
@@ -32,7 +39,7 @@ body {
     font-size: 1.2em;
 }
 
-.header_menu li, .page-footer {
+.header_menu li, .page-footer, .page-subfooter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,12 +57,13 @@ body {
     width: 100%;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
     .header_menu {
         font-size: 2em;
         /*flex-direction: column;*/
     }
 }
+
 @media screen and (max-width: 768px) {
     .header_menu {
         font-size: 1em;

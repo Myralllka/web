@@ -5,7 +5,7 @@
     box-sizing: inherit;
 }
 
-.main-page {
+.body-page-element {
     margin: 5em auto;
     padding: 0 2em;
     max-width: 55em;
@@ -46,7 +46,7 @@ a:hover {
     cursor: pointer;
 }
 
-.header_element {
+.header-element {
     padding: 0.5em 1em;
     border-radius: 0.5em;
     background-color: var(--w2);
@@ -61,7 +61,7 @@ a:hover {
     font-size: 1.5em;
 }
 
-.main_element {
+.main-element {
     background-color: var(--w3);
     padding: 1em 2em;
     border-radius: 2em;
@@ -83,7 +83,7 @@ code {
     font-size: 1em;
 }
 
-button, input[type=submit]{
+button, input[type=submit] {
     display: block;
     background: var(--f4);
     padding: 1em;
@@ -94,6 +94,7 @@ button, input[type=submit]{
     font-size: 1em;
     margin: 1em auto;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -101,11 +102,11 @@ form {
     margin: 0 auto;
 }
 
-form input {
-    padding: 0;
+form input, form textarea {
+    padding: .5em;
     margin: .5em 0;
-    border: solid 0.08em var(--f4);
-    border-radius: 0.06em;
+    border: solid 0.08em var(--w1);
+    border-radius: 0.6em;
 }
 
 .NotSupportedYet {
@@ -114,21 +115,35 @@ form input {
     font-size: 2em;
     margin: 10em auto;
 }
+.chords-img {
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.chords-img-block {
+    display: flex;
+}
+
+.leshyTuner {
+    height: 280px
+}
 
 @media only screen and (max-width: 1650px) {
-    .main-page {
+    .body-page-element {
         margin: 6em auto;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .main-page {
+    .body-page-element {
         margin: 8em auto;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .main-page {
+    .body-page-element {
         margin: 20em auto;
     }
 }

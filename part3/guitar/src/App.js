@@ -10,7 +10,7 @@ import Chords from "./templates/chords";
 import Songs from "./templates/songs";
 import Notes from "./templates/notes";
 
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
     return (
@@ -26,6 +26,8 @@ function App() {
                     <Route path="/" component={Main}/>
                 </Switch>
                 <Footer></Footer>
+                <script src="https://cdn.rawgit.com/citronneur/onlinetuner.co/master/js/onlinetuner.min.js"/>
+
             </div>
         </Router>
     );
