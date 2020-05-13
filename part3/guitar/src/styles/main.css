@@ -126,10 +126,6 @@ form input, form textarea {
     display: flex;
 }
 
-.leshyTuner {
-    height: 280px
-}
-
 @media only screen and (max-width: 1650px) {
     .body-page-element {
         margin: 6em auto;

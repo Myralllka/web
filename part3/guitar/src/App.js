@@ -10,16 +10,17 @@ import Chords from "./templates/chords";
 import Songs from "./templates/songs";
 import Notes from "./templates/notes";
 
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 function App() {
     return (
         <Router>
-            <div className="App">
+            <div className="App">му одноразово
                 <Header></Header>
                 <Switch>
+                    <Redirect exact from="/tuner/reload" to="/tuner" />
                     <Route path="/metronome" component={Metronome}/>
-                    <Route path="/tuner" component={Tuner}/>
+                    <Route exact path="/tuner"  component ={Tuner}/>
                     <Route path="/chords" component={Chords}/>
                     <Route path="/notes" component={Notes}/>
                     <Route path="/songs" component={Songs}/>
@@ -27,7 +28,6 @@ function App() {
                 </Switch>
                 <Footer></Footer>
                 <script src="https://cdn.rawgit.com/citronneur/onlinetuner.co/master/js/onlinetuner.min.js"/>
-
             </div>
         </Router>
     );
