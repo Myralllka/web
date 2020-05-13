@@ -51,13 +51,14 @@ body {
 }
 
 @media only screen and (max-width: 1000px){
-    .header_menu{
+    .header_menu {
         font-size: 2em;
         /*flex-direction: column;*/
     }
 }
-@media screen and (max-width: 1650px) {
-    header {
+@media screen and (max-width: 768px) {
+    .header_menu {
+        font-size: 1em;
         flex-direction: column;
         justify-content: space-around;
     }

@@ -16,6 +16,14 @@ export default class Main extends React.Component{
                 </p>
                 <h1 className="header_element">What guitar is it better to take?</h1>
                 <h2 className="header_element">If you think, that there is no difference between guitars - you are totally wrong, because there are a lot of them. But three most popular are acoustic, classic and electric. So what is better?</h2>
+                <p className="main_element">
+                    <form action="#">
+                        <h3 className="header_element">Have questions? Contact us!</h3>
+                        <input type="email" placeholder="Your email"/>
+                        <textarea rows="4" placeholder="Your question"></textarea>
+                        <input type="submit" value="Send a question"/>
+                    </form>
+                </p>
             </div>
         )
     }

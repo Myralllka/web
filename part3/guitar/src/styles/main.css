@@ -83,6 +83,31 @@ code {
     font-size: 1em;
 }
 
+button, input[type=submit]{
+    display: block;
+    background: var(--f4);
+    padding: 1em;
+    border: 0.07em solid var(--f3);
+    border-radius: 1em;
+    min-width: 100px;
+    color: var(--w2);
+    font-size: 1em;
+    margin: 1em auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+form input {
+    padding: 0;
+    margin: .5em 0;
+    border: solid 0.08em var(--f4);
+    border-radius: 0.06em;
+}
+
 .NotSupportedYet {
     display: block;
     text-align: center;
@@ -91,13 +116,19 @@ code {
 }
 
 @media only screen and (max-width: 1650px) {
-    main {
-        margin: 2em auto;
+    .main-page {
+        margin: 6em auto;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    main {
-        margin: 15em auto;
+    .main-page {
+        margin: 8em auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-page {
+        margin: 20em auto;
     }
 }
