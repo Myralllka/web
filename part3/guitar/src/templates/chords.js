@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/colors.css';
 import '../styles/main.css';
 import '../styles/header_and_footer.css';
-import {Link} from 'react-router-dom';
 
 export default class Chords extends React.Component {
     constructor() {
@@ -12,7 +11,12 @@ export default class Chords extends React.Component {
 
     render() {
         return (
-            <div className="NotSupportedYet"> HELLO Chords</div>
+            <div className="context">
+                <h1 className="header_element">Guitar chords</h1>
+                <p className="main_element"></p>
+                <div className="page-footer"><a href="https://www.libertyparkmusic.com/read-guitar-chord-diagrams/">source of info</a></div>
+            </div>
+
         )
     }
 }

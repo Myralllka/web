@@ -38,11 +38,6 @@ export default class Metronome extends Component {
         }
     }
 
-    handleSubmit = e => {
-        e.preventDefault()
-        console.log(this.state.bpm)
-    }
-
     startStop = () => {
         if (this.state.playing) {
             clearInterval(this.timer)
@@ -74,6 +69,12 @@ export default class Metronome extends Component {
         this.setState(state => ({
             count: (state.count + 1) % state.beatsPerMeasure
         }))
+    }
+    componentWillUnmount() {
+        clearInterval(this.timer)
+        this.setState({
+            playing: false
+        })
     }
 
     render() {
