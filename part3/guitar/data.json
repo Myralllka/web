@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "PageName": "Main page",
+      "url": "/",
+      "id": 1
+    },
+    {
+      "PageName": "Main chords",
+      "url": "/chords",
+      "id": 2
+    },
+    {
+      "PageName": "Tuner",
+      "url": "/tuner",
+      "id": 3
+    },
+    {
+      "PageName": "Metronome",
+      "url": "/metronome",
+      "id": 4
+    },
+    {
+      "PageName": "Easy songs",
+      "url": "/songs",
+      "id": 5
+    },
+    {
+      "PageName": "Notes",
+      "url": "/notes",
+      "id": 6
+    }
+  ]
+}
