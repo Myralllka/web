@@ -301,214 +301,276 @@
   ],
   "notes": [
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "One of the most important guitar lessons to master is learning the notes on the fretboard. Even\n                        if you don’t know chord placement, you can still find chords if you know where each note is.\n                        Don’t let the long fretboard scare you away. It’s far easier to learn the guitar fretboard than\n                        you might think. Luckily, a little practice and a few tricks make it easy.",
       "src": ""
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "The Natural Musical Alphabet",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "When learning how to play guitar, you should know the musical\n                        alphabet is a little different than the alphabet you learned as a child. Learning notes starts\n                        with some basic music theory. With the natural musical alphabet, you only have seven notes – A,\n                        B, C, D, E, F, and G. They’re called natural since you have no flats or sharps. All your sharps\n                        and flats occur between these notes. Once you know these, learning sharps and flats is as simple\n                        as moving up or down.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/learn-fretboard-alphabet.png"
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "Sharps & Flats",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "Sharps and flats are just half-steps away from the natural notes. So what’s the big difference\n                        between the two? It’s all in how you move. Every half-step (or fret) changes the note.\n\n                        Sharps are a half-step up from a natural note. For instance, a half-step above A is A#.\n\n                        Flats are the exact opposite. One half-step down leads to a flat. For instance, if you step down\n                        from A, you’d get Ab. The confusing part comes into play with a single note has two names and\n                        the name depends mainly on the key you’re playing in. For instance, the note between D and E is\n                        D# if you’re stepping up and Eb if you’re stepping down.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/learn-fretboard-sharp-flat.png"
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "important",
       "body": "Pro Tip: An easy way to keep your sharps and flats straight is to\n                        think of stepping on a bug. When you step down on the bug, it’s flat, just like notes on your\n                        guitar.",
       "src": ""
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "The BC & EF Rule",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "All natural notes have sharps and flats between them except BC and\n                        EF. A half-step between these leads to the next natural note. Stepping up from B leads you to C.\n                        Stepping down from F leads to E.",
       "src": ""
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "String Names",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "Using standard tuning, your strings are E, A, D, G, B, and E. If you played an open string,\n                        meaning you’re not holding down a note at any fret, those would be the notes played. This\n                        gives you a reference point to start learning. As you may notice, your high and low string\n                        are both E, meaning they’ll have the same notes, giving you less to memorize.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/string-names.png"
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "Count Up The Frets On Each String",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "At this point, it’s a simple matter of counting up notes as you go\n                        along the fretboard. As you can see from the following fretboard images, the first fret is one\n                        half-step up from the string name or note. Just remember the BC and EF rule to keep your notes\n                        in order.",
       "src": ""
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "E Strings:",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/fretboard-e-string.png"
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "A Strings:",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/fretboard-a-string.png"
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "D Strings:",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/fretboard-d-string.png"
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "G Strings:",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/fretboard-g-string.png"
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "B Strings:",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/fretboard-b-string.png"
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "12th Fret Octave",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "Now for the next trick in helping you learn the guitar fretboard.\n                        You only need to learn the first 12 frets as the notes begin repeating. For instance, look at\n                        the B String image above. On fret 12, the note becomes B again. Fret 13 would then be C, the\n                        same as fret 1. That’s much less to learn.",
       "src": ""
     },
     {
-      "tag":"h2",
+      "tag": "h2",
       "class": "header-element",
       "body": "Octave Centers",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "All you really have to learn is octave centers and your E and A strings. You can find any note\n                        on the fretboard just by referencing octaves on these strings. References are always two strings\n                        over. For instance, in the diagram below, you can see that we’re finding G on the D string by\n                        referencing its location on the E string. You could then use the D string to find notes on the B\n                        string.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/octave-centers-1.png"
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "In the same way, you could use your A string to find the notes on the G string, then the G\n                        string to find the notes on the high E string.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/octave-centers-2.png"
     },
     {
-      "tag":"h3",
+      "tag": "h3",
       "class": "header-element",
       "body": "Putting It All Together",
       "src": ""
     },
     {
-      "tag":"p",
+      "tag": "p",
       "class": "main-element",
       "body": "Now, it’s time to start learning those notes on your E and A strings. Get those down and you’ll\n                        quickly master the notes on the fretboard. Here is all notes together.",
       "src": ""
     },
     {
-      "tag":"",
+      "tag": "",
       "class": "",
       "body": "",
       "src": "img/notes/notes-all.png"
+    }
+  ],
+  "songs": [
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Группа \"Кино\", Виктор Цой"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "One of the most popular groups between guitar beginners. They have very popular songs, in each song there is about 5 chords, so definitely it is the best one if you want to start, but don`t know what to take as a beginning"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Бумбокс"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "One of the best our days bands in the Ukraine, may be in whole Europe. They also have a lot of songs that it is easy to play either fingerstyle or chords."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Imagine Dragons"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Very popular band, their songs such as Believer and Radioactive are easy to play fingerstyle"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "\"Мурка\", \"постой паровоз\", \"если у вас нету тети\" и другие с совецких к/ф-мов"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "they are also very popular in our country, and you can be shocked because they are one of the easiest."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Ляпис Трубецкой, Brutto"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "This Bands are legends, Sergey Mikhalok wrote a lot of songs and poems, and they also have few songs, \"Kapital\" as an example, that have not more than 4 chords."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Жадан і Собаки"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Український письменник Сергій Жадан має не тільки невичерпний талант до написання гарних віршів, а ще й на його вірші пишуть музику такі гурти, як Брутто, Плач Єремії, а також Харківський гурт \"Собаки в космосі\", з якими пан Сергій останні років 10 виступає разом. пісні здебільшого мають 4-6 акордів та легкий бій."
     }
   ]
 }

@@ -5,7 +5,7 @@ import React, {Component} from 'react'
 import '../styles/metronome.scss'
 import '../styles/main.css'
 import click1 from '../sounds/click1.wav'
-import click2 from '../sounds/click1.wav'
+import click2 from '../sounds/click2.wav'
 
 export default class Metronome extends Component {
     constructor() {

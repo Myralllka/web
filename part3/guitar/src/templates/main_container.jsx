@@ -2,12 +2,12 @@ import React from 'react';
 import '../styles/colors.css';
 import '../styles/header_and_footer.css';
 import MyForm from "./form";
-import {NavLink} from "react-router-dom";
 
 export default class Main extends React.Component {
     state = {
         entries: []
     }
+
     componentWillMount() {
         fetch('/main_page').then(resp => {
             return resp.json();
@@ -18,6 +18,7 @@ export default class Main extends React.Component {
             })
         })
     }
+
     render() {
         return (
             <div className="body-page-element">
