@@ -10,11 +10,10 @@ export default class Header extends React.Component {
         entries: []
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('/entries').then(resp => {
             return resp.json();
         }).then(body => {
-            console.log(body);
             this.setState({
                 entries: body
             })

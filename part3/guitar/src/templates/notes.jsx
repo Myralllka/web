@@ -8,11 +8,10 @@ export default class Notes extends React.Component {
         notes: []
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('/notes').then(resp => {
             return resp.json();
         }).then(body => {
-            console.log(body)
             this.setState({
                 notes: body
             })

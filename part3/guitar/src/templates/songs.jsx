@@ -8,11 +8,10 @@ export default class Songs extends React.Component {
         songs: []
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('/songs').then(resp => {
             return resp.json();
         }).then(body => {
-            console.log(body)
             this.setState({
                 songs: body
             })

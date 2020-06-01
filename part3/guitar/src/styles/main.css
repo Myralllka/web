@@ -11,24 +11,6 @@
     max-width: 55em;
 }
 
-table {
-    border: 0.1em solid var(--w3);
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    font-size: 1em;
-    line-height: 1.5;
-}
-
-table tr:nth-child(even) {
-    background-color: var(--w1);
-}
-
-table tr:nth-child(odd) {
-    background-color: var(--w2);
-}
-
 img {
     display: block;
     max-width: 55em;
@@ -116,6 +98,7 @@ form input, form textarea {
     font-size: 2em;
     margin: 10em auto;
 }
+
 .chords-img {
     max-width: 90%;
     width: auto;

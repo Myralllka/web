@@ -8,11 +8,10 @@ export default class Main extends React.Component {
         entries: []
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('/main_page').then(resp => {
             return resp.json();
         }).then(body => {
-            console.log(body)
             this.setState({
                 entries: body
             })

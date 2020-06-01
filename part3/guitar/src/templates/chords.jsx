@@ -9,11 +9,10 @@ export default class Chords extends React.Component {
         chords: []
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('/chords').then(resp => {
             return resp.json();
         }).then(body => {
-            console.log(body)
             this.setState({
                 chords: body
             })

@@ -68,7 +68,7 @@ export default class Metronome extends Component {
         }))
     }
 
-    componentWillUnmount() {
+    componentDidMount() {
         clearInterval(this.timer)
         this.setState({
             playing: false
