@@ -80,7 +80,7 @@ export default class Chords extends React.Component {
                     <div className="main-element">This curved line above the nut is letting you know that you will have to
                         use a barre technique to play this chord. If you’re curious about barre chords, please check
                         out <a
-                            href="https://www.libertyparkmusic.com/barre-chords-made-easy/">this</a> article.</div>
+                            href="https://www.libertyparkmusic.com/barre-chords-made-easy/chords.jsx">this</a> article.</div>
                     <h2 className="header-element">What about notes above the fifth fret?</h2>
                     <div className="main-element">As you progress beyond open chords (chords with notes on open strings),
                         you will encounter chords with notes above the fifth fret.</div>

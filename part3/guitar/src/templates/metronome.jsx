@@ -9,18 +9,15 @@ import click2 from '../sounds/click1.wav'
 
 export default class Metronome extends Component {
     constructor() {
-        super()
-
+        super();
         this.state = {
             playing: false,
             count: 0,
             bpm: 100,
             beatsPerMeasure: 4,
         }
-
         this.click1 = new Audio(click1)
         this.click2 = new Audio(click2)
-
     }
 
     handleBpmChange = e => {
@@ -70,6 +67,7 @@ export default class Metronome extends Component {
             count: (state.count + 1) % state.beatsPerMeasure
         }))
     }
+
     componentWillUnmount() {
         clearInterval(this.timer)
         this.setState({

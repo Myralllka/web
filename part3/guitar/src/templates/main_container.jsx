@@ -1,13 +1,9 @@
 import React from 'react';
 import '../styles/colors.css';
 import '../styles/header_and_footer.css';
+import MyForm from "./form";
 
 export default class Main extends React.Component {
-    constructor() {
-        super();
-        // this.state
-    }
-
     render() {
         return (
             <div className="body-page-element">
@@ -25,12 +21,7 @@ export default class Main extends React.Component {
                     totally wrong, because there are a lot of them. But three most popular are acoustic, classic and
                     electric. So what is better?</h2>
                 <div className="main-element">
-                    <form action="#">
-                        <h3 className="header-element">Have questions? Contact us!</h3>
-                        <input type="email" placeholder="Your email"/>
-                        <textarea rows="4" placeholder="Your question"/>
-                        <input type="submit" value="Send a question"/>
-                    </form>
+                    <MyForm/>
                 </div>
             </div>
         )

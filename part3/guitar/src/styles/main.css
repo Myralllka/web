@@ -46,6 +46,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 .header-element {
     padding: 0.5em 1em;
     border-radius: 0.5em;
@@ -124,6 +125,17 @@ form input, form textarea {
 
 .chords-img-block {
     display: flex;
+}
+
+.tuner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*text-align: center;*/
+}
+
+.a_tuner {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1650px) {
