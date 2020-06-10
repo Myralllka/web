@@ -26,7 +26,6 @@ function App() {
                     <Route exact path="/" component={Main}/>
                 </Switch>
                 <Footer/>
-                <script src="https://cdn.rawgit.com/citronneur/onlinetuner.co/master/js/onlinetuner.min.js"/>
             </div>
         </Router>
     );

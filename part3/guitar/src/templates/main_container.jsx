@@ -4,22 +4,27 @@ import '../styles/header_and_footer.css';
 import MyForm from "./form";
 
 export default class Main extends React.Component {
+    state = {
+        entries: []
+    }
+
+    componentDidMount() {
+        fetch('/main_page').then(resp => {
+            return resp.json();
+        }).then(body => {
+            this.setState({
+                entries: body
+            })
+        })
+    }
+
     render() {
         return (
             <div className="body-page-element">
-                <h1 className="header-element">Guitar assistant</h1>
-                <h2 className="header-element">This site will help you if you want to start playing the Guitar and don`t
-                    know, how to do it.</h2>
-                <p className="main-element">Here you can find metronome, all chords, notes, tuner and a lot of things
-                    that will help you to become better and better on your way. And remember - only systematic practice
-                    can move you to the goal! <br/>
-                    On this site there will be now advertisement, only really good advices. By the way, I started
-                    learning the guitar one months ago, so I will share with you only workable and joyful resources.
-                </p>
-                <h1 className="header-element">What guitar is it better to take?</h1>
-                <h2 className="header-element">If you think, that there is no difference between guitars - you are
-                    totally wrong, because there are a lot of them. But three most popular are acoustic, classic and
-                    electric. So what is better?</h2>
+                {this.state.entries.map((entry) => {
+                    const Tag = entry.type;
+                    return <div><Tag className={entry.class}>{entry.text}</Tag></div>
+                })}
                 <div className="main-element">
                     <MyForm/>
                 </div>

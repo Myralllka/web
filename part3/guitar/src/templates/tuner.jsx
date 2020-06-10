@@ -10,7 +10,7 @@ export default class Tuner extends React.Component {
             <div className="body-page-element tuner">
                 <Iframe src="/tuner-widget.html"
                         width="100%"
-                        height="400em"
+                        height="300px"
                         className="myClassname"
                         display="initial"
                         position="relative"

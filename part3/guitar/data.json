@@ -30,5 +30,547 @@
       "url": "/notes",
       "id": 6
     }
+  ],
+  "main_page": [
+    {
+      "type": "h1",
+      "class": "header-element",
+      "text": "Guitar assistant",
+      "id": 1
+    },
+    {
+      "type": "h2",
+      "class": "header-element",
+      "text": "This site will help you if you want to start playing the Guitar and don`t know, how to do it.",
+      "id": 2
+    },
+    {
+      "type": "p",
+      "class": "main-element",
+      "text": "Here you can find metronome, all chords, notes, tuner and a lot of things that will help you to become better and better on your way. And remember - only systematic practice can move you to the goal! On this site there will be now advertisement, only really good advices. By the way, I started learning the guitar one months ago, so I will share with you only workable and joyful resources. ",
+      "id": 3
+    },
+    {
+      "type": "h1",
+      "class": "header-element",
+      "text": "What guitar is it better to take?",
+      "id": 4
+    },
+    {
+      "type": "h2",
+      "class": "header-element",
+      "text": "If you think, that there is no difference between guitars - you are totally wrong, because there are a lot of them. But three most popular are acoustic, classic and electric. So what is better?",
+      "id": 5
+    }
+  ],
+  "chords": [
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "What does a chord diagram look like?",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Most chord diagrams will look very similar to the following image:",
+      "src": ""
+    },
+    {
+      "tag": "img",
+      "class": "chords-img",
+      "body": "",
+      "src": "img/chords/E-major.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Before getting into what all those numbers, dots, and letters mean, let’s take a look at a blank diagram and break that down first:",
+      "src": ""
+    },
+    {
+      "tag": "img",
+      "class": "chords-img",
+      "body": "",
+      "src": "img/chords/Guitar-chord-diagram.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Beginning at the very top, the thick black bar represents the guitar’s nut (the white, sometimes cream colored or black, object at the top of the fretboard on the guitar that elevates the strings over the fretboard):",
+      "src": ""
+    },
+    {
+      "tag": "img",
+      "class": "chords-img",
+      "body": "",
+      "src": "img/chords/Guitar-nut.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "The boxes that follow below the nut represent the different frets. The\n                        first row of boxes represent the first fret, second row represents the second fret, and so\n                        on.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "chords-img",
+      "body": "",
+      "src": "img/chords/Guitar-fret.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "important",
+      "body": "The vertical lines that run down the diagram\n                        represent the six strings on the guitar.",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "The leftmost line represents the sixth string:\n                        which is the thickest string, the one that is closest to your head; and the line all the way to\n                        the right represents the first string, which is the thinnest string, furthest away from your\n                        head.",
+      "src": ""
+    },
+    {
+      "tag": "img",
+      "class": "",
+      "body": "",
+      "src": "img/chords/Guitar-strings.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Now that we have gone through a blank diagram, let’s find out what those\n                        numbers below the diagram mean.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Finger Numbers",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "The numbers are telling you which finger you are going to use. The\n                        fingers on your left hand are numbered from one through four. Here is what each number\n                        represents:",
+      "src": ""
+    },
+    {
+      "tag": "img",
+      "class": "",
+      "body": "",
+      "src": "img/chords/Fingering.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Occasionally, you will see a “T” symbol instead of numbers. In this\n                        case, that symbol is telling you to use your thumb to fret that particular note.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "What about the dots?",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "The black dots found on the chord diagrams tell\n                        you which fret to press down, and on which string and with which numbered\n                        finger. </p>Additionally, you will sometimes see circles above the nut. These circles tell you\n                        to play that open string without pressing any fret. So using what we know so far about strings,\n                        finger numbers, and dots, let’s check out that same chord diagram again:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/chords/E-major.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "In this diagram, we will place our middle finger on the second fret of\n                        the fifth (A) string, ring finger on the second fret of the fourth (D) string, and index finger\n                        on the first fret of the third (G) string. Since there are circles above the sixth (E), second\n                        (B), and first (E) strings, we will also play those open strings.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "What are those letters above the diagram?",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "If we follow the previous diagram exactly as it is displayed, we will\n                        create an E major chord. The large “E” above the diagram simply represents the chord that we are\n                        currently playing. These letters can get really complicated, but as a beginner, you will mostly\n                        likely be playing basic major and minor chords for a while.",
+      "src": ""
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "“X” symbol",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "important",
+      "body": "Often, you will see X’s above the nut instead\n                        of just O’s. These X’s tell you that you should not play that string for the current chord.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/chords/D-major.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "In this diagram, we will only play strings four, three, two, and one.\n                        Strings five and six have X’s above them, which means we will mute them, or avoid striking them\n                        with our pick (or fingers).",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Barre symbol",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "For those of you who have gotten into playing barre chords already,\n                        here's what a F major barre chord looks like:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/chords/F-major.jpg"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "What about notes above the fifth fret?",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "As you progress beyond open chords (chords with notes on open strings),\n                        you will encounter chords with notes above the fifth fret.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/chords/Eb-minor.jpg"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "In this Eb minor chord diagram, you will notice a “6fr” symbol to the\n                        right of the diagram. This is to tell you that this diagram begins on the sixth fret.\n                        Occasionally, you will see symbols like “VI” or just a “6” to let you know that the diagram\n                        begins on the sixth fret.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "You’re ready to play!",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "That’s really all there is to it. It’s a very simple and easy to grasp\n                        concept that can be understood within five minutes, but in order to remember and master this\n                        concept, you will have to practice!",
+      "src": ""
+    },
+    {
+      "tag": "h1",
+      "class": "header-element",
+      "body": "More chords",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Here you can find more chords to learn! Good luck.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/chords/guitar-chord-chart.png"
+    }
+  ],
+  "notes": [
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "One of the most important guitar lessons to master is learning the notes on the fretboard. Even\n                        if you don’t know chord placement, you can still find chords if you know where each note is.\n                        Don’t let the long fretboard scare you away. It’s far easier to learn the guitar fretboard than\n                        you might think. Luckily, a little practice and a few tricks make it easy.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "The Natural Musical Alphabet",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "When learning how to play guitar, you should know the musical\n                        alphabet is a little different than the alphabet you learned as a child. Learning notes starts\n                        with some basic music theory. With the natural musical alphabet, you only have seven notes – A,\n                        B, C, D, E, F, and G. They’re called natural since you have no flats or sharps. All your sharps\n                        and flats occur between these notes. Once you know these, learning sharps and flats is as simple\n                        as moving up or down.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/learn-fretboard-alphabet.png"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Sharps & Flats",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Sharps and flats are just half-steps away from the natural notes. So what’s the big difference\n                        between the two? It’s all in how you move. Every half-step (or fret) changes the note.\n\n                        Sharps are a half-step up from a natural note. For instance, a half-step above A is A#.\n\n                        Flats are the exact opposite. One half-step down leads to a flat. For instance, if you step down\n                        from A, you’d get Ab. The confusing part comes into play with a single note has two names and\n                        the name depends mainly on the key you’re playing in. For instance, the note between D and E is\n                        D# if you’re stepping up and Eb if you’re stepping down.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/learn-fretboard-sharp-flat.png"
+    },
+    {
+      "tag": "p",
+      "class": "important",
+      "body": "Pro Tip: An easy way to keep your sharps and flats straight is to\n                        think of stepping on a bug. When you step down on the bug, it’s flat, just like notes on your\n                        guitar.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "The BC & EF Rule",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "All natural notes have sharps and flats between them except BC and\n                        EF. A half-step between these leads to the next natural note. Stepping up from B leads you to C.\n                        Stepping down from F leads to E.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "String Names",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Using standard tuning, your strings are E, A, D, G, B, and E. If you played an open string,\n                        meaning you’re not holding down a note at any fret, those would be the notes played. This\n                        gives you a reference point to start learning. As you may notice, your high and low string\n                        are both E, meaning they’ll have the same notes, giving you less to memorize.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/string-names.png"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Count Up The Frets On Each String",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "At this point, it’s a simple matter of counting up notes as you go\n                        along the fretboard. As you can see from the following fretboard images, the first fret is one\n                        half-step up from the string name or note. Just remember the BC and EF rule to keep your notes\n                        in order.",
+      "src": ""
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "E Strings:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/fretboard-e-string.png"
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "A Strings:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/fretboard-a-string.png"
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "D Strings:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/fretboard-d-string.png"
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "G Strings:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/fretboard-g-string.png"
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "B Strings:",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/fretboard-b-string.png"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "12th Fret Octave",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Now for the next trick in helping you learn the guitar fretboard.\n                        You only need to learn the first 12 frets as the notes begin repeating. For instance, look at\n                        the B String image above. On fret 12, the note becomes B again. Fret 13 would then be C, the\n                        same as fret 1. That’s much less to learn.",
+      "src": ""
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Octave Centers",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "All you really have to learn is octave centers and your E and A strings. You can find any note\n                        on the fretboard just by referencing octaves on these strings. References are always two strings\n                        over. For instance, in the diagram below, you can see that we’re finding G on the D string by\n                        referencing its location on the E string. You could then use the D string to find notes on the B\n                        string.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/octave-centers-1.png"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "In the same way, you could use your A string to find the notes on the G string, then the G\n                        string to find the notes on the high E string.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/octave-centers-2.png"
+    },
+    {
+      "tag": "h3",
+      "class": "header-element",
+      "body": "Putting It All Together",
+      "src": ""
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Now, it’s time to start learning those notes on your E and A strings. Get those down and you’ll\n                        quickly master the notes on the fretboard. Here is all notes together.",
+      "src": ""
+    },
+    {
+      "tag": "",
+      "class": "",
+      "body": "",
+      "src": "img/notes/notes-all.png"
+    }
+  ],
+  "songs": [
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Группа \"Кино\", Виктор Цой"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "One of the most popular groups between guitar beginners. They have very popular songs, in each song there is about 5 chords, so definitely it is the best one if you want to start, but don`t know what to take as a beginning"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Бумбокс"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "One of the best our days bands in the Ukraine, may be in whole Europe. They also have a lot of songs that it is easy to play either fingerstyle or chords."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Imagine Dragons"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Very popular band, their songs such as Believer and Radioactive are easy to play fingerstyle"
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "\"Мурка\", \"постой паровоз\", \"если у вас нету тети\" и другие с совецких к/ф-мов"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "they are also very popular in our country, and you can be shocked because they are one of the easiest."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Ляпис Трубецкой, Brutto"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "This Bands are legends, Sergey Mikhalok wrote a lot of songs and poems, and they also have few songs, \"Kapital\" as an example, that have not more than 4 chords."
+    },
+    {
+      "tag": "h2",
+      "class": "header-element",
+      "body": "Жадан і Собаки"
+    },
+    {
+      "tag": "p",
+      "class": "main-element",
+      "body": "Український письменник Сергій Жадан має не тільки невичерпний талант до написання гарних віршів, а ще й на його вірші пишуть музику такі гурти, як Брутто, Плач Єремії, а також Харківський гурт \"Собаки в космосі\", з якими пан Сергій останні років 10 виступає разом. пісні здебільшого мають 4-6 акордів та легкий бій."
+    }
   ]
 }
