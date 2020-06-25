@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/web_guitar/static/css/main.9c4869e8.chunk.css",
+    "main.js": "/web_guitar/static/js/main.aa119e4f.chunk.js",
+    "main.js.map": "/web_guitar/static/js/main.aa119e4f.chunk.js.map",
+    "runtime-main.js": "/web_guitar/static/js/runtime-main.383e991d.js",
+    "runtime-main.js.map": "/web_guitar/static/js/runtime-main.383e991d.js.map",
+    "static/js/2.a4bdb1b5.chunk.js": "/web_guitar/static/js/2.a4bdb1b5.chunk.js",
+    "static/js/2.a4bdb1b5.chunk.js.map": "/web_guitar/static/js/2.a4bdb1b5.chunk.js.map",
+    "index.html": "/web_guitar/index.html",
+    "precache-manifest.bc5a15ee834201501f97a089818aed28.js": "/web_guitar/precache-manifest.bc5a15ee834201501f97a089818aed28.js",
+    "service-worker.js": "/web_guitar/service-worker.js",
+    "static/css/main.9c4869e8.chunk.css.map": "/web_guitar/static/css/main.9c4869e8.chunk.css.map",
+    "static/js/2.a4bdb1b5.chunk.js.LICENSE.txt": "/web_guitar/static/js/2.a4bdb1b5.chunk.js.LICENSE.txt",
+    "static/media/click1.wav": "/web_guitar/static/media/click1.7a7930a2.wav",
+    "static/media/click2.wav": "/web_guitar/static/media/click2.fe0ded65.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.383e991d.js",
+    "static/js/2.a4bdb1b5.chunk.js",
+    "static/css/main.9c4869e8.chunk.css",
+    "static/js/main.aa119e4f.chunk.js"
+  ]
+}
